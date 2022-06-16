@@ -1,0 +1,83 @@
+.botones {
+    background: #000000;
+    justify-content: space-around;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0.7%;
+    
+}
+
+.botones button {
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.botones .Inicio button:hover  {
+    color: #ffffff;
+    background: linear-gradient(rgba(255, 0, 0, 0), rgba(43, 255, 0,0.75));
+}
+
+.botones .Inicio .active{
+    color: #ffffff;
+    background: linear-gradient(rgba(166, 0, 255, 0), rgb(43, 255, 0));
+}
+
+.botones .Contenidos button:hover  {
+    color: #ffffff;
+    background: linear-gradient(rgba(255, 187, 0, 0), rgba(255, 187, 0, 0.75));
+}
+
+.botones .Contenidos .active{
+    color: #ffffff;
+    background: linear-gradient(rgba(166, 0, 255, 0), rgb(255, 187, 0));
+}
+
+.botones .Memoria button:hover  {
+    color: #ffffff;
+    background: linear-gradient(rgba(255, 251, 0, 0), rgba(255, 251, 0, 0.75));
+}
+
+.botones .Memoria .active{
+    color: #ffffff;
+    background: linear-gradient(rgba(166, 0, 255, 0), rgb(255, 251, 0));
+}
+
+.botones .Autoevaluación button:hover  {
+    color: #ffffff;
+    background: linear-gradient(rgba(43, 255, 0, 0), rgba(43, 255, 0, 0.75));
+}
+
+.botones .Autoevaluación .active{
+    color: #ffffff;
+    background: linear-gradient(rgba(166, 0, 255, 0), rgb(43, 255, 0));
+}
+
+.botones .Nosotros button:hover {
+    color: #ffffff;
+    background: linear-gradient(rgba(0, 119, 255, 0), rgba(0, 119, 255, 0.75));
+}
+.botones .Nosotros .active{
+    color: #ffffff;
+    background: linear-gradient(rgba(166, 0, 255, 0), rgb(0, 119, 255));
+}
+
+.botones .QYA button:hover {
+    color: #ffffff;
+    background: linear-gradient(rgba(166, 0, 255, 0), rgba(255, 0, 0, 0.75));
+}
+
+.botones .QYA .active{
+    color: #ffffff;
+    background: linear-gradient(rgba(166, 0, 255, 0), rgb(255, 0, 0));
+}
+
